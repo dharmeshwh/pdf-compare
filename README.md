@@ -15,5 +15,4 @@ Use the following commands to install the required dependencies:
 ```bash
 npm i -g ts-node
 
-```bash
 npx ts-node index.ts
