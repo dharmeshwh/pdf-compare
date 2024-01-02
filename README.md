@@ -1,10 +1,19 @@
-### pdf-compare
+# pdf-compare
 
-To run the index.ts file
+## Introduction
 
-## use below commands
+This project aims to provide a tool for comparing PDF files. The `pdf-compare` tool allows you to run a comparison using the provided `index.ts` file.
 
-````npm i -g ts-node
+## Prerequisites
 
-``` npx ts-node index.ts
-````
+Before running the tool, make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your system.
+
+## Installation
+
+Use the following commands to install the required dependencies:
+
+```bash
+npm i -g ts-node
+
+```bash
+npx ts-node index.ts
