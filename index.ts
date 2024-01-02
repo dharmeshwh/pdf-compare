@@ -4,7 +4,7 @@ import * as pdfParse from "pdf-parse";
 async function getPdfText(url: string): Promise<string> {
   try {
     const response = await axios.get(url, { responseType: "arraybuffer" });
-    const data = new Uint8Array(response.data);
+    const data: any = new Uint8Array(response.data);
     const pdf = await pdfParse(data);
     return pdf.text;
   } catch (error) {
